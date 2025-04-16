@@ -7,7 +7,8 @@ const FormAction = () => {
     console.log(formData.get("password"));
   };
   return (
-    <div className="p-10">
+    <div className="my-10 border-2 p-10 rounded-xl w-90">
+      <h1 className="text-xl">Form action handler: </h1>
       <form action={handleFormAction}>
         <input
           className="border-2 my-2 p-2 rounded"
