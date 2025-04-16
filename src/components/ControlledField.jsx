@@ -26,7 +26,7 @@ const ControlledField = () => {
   };
 
   return (
-    <div className="border-2 p-10 rounded-xl w-90">
+    <div className="border-2 p-10 rounded-xl w-90 my-10">
       <h1 className="text-xl">Controlled field: </h1>
       <form onSubmit={handleSubmit}>
         <input
